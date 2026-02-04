@@ -561,6 +561,7 @@ section {
     border: 1px solid var(--border-color);
     margin-bottom: 15px;
     cursor: pointer;
+
 }
 
 .certificate-card img:hover {
