@@ -530,6 +530,9 @@ section {
     margin-bottom: 15px;
     line-height: 1.5;
 }
+.project-details{
+    display: flex;
+}
 
 .btn-view {
     border: 1px solid var(--accent-red);
@@ -931,7 +934,6 @@ footer a:hover span {
     line-height: 1;
 }
 
-.project-section p,
 .project-section ul,
 .project-section li {
     color: var(--text-secondary);
@@ -939,7 +941,12 @@ footer a:hover span {
     margin: 0;
     padding: 0;
 }
-
+.project-section p{
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-left: 5px;
+    padding: 0;  
+}
 .project-section ul {
     list-style-position: inside;
 }
